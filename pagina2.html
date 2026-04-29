@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pagina2 - Calculadora</title>
+</head>
+<body>
+
+<h2>Calculadora dinámica</h2>
+
+<input type="number" id="num1" placeholder="Número 1">
+<input type="number" id="num2" placeholder="Número 2">
+
+<br><br>
+
+<select id="operador">
+  <option value="+">Suma (+)</option>
+  <option value="-">Resta (-)</option>
+  <option value="*">Multiplicación (*)</option>
+  <option value="/">División (/)</option>
+  <option value="&&">AND lógico (&&)</option>
+  <option value="||">OR lógico (||)</option>
+  <option value="&">AND bits (&)</option>
+  <option value="|">OR bits (|)</option>
+</select>
+
+<br><br>
+
+<button onclick="calcular()">Calcular</button>
+
+<p id="resultado"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
